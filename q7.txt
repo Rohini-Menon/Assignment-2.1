@@ -1,0 +1,38 @@
+7) Can you overload a method with the same return type?Explain your answer with proper logic
+
+
+ Ans:
+
+     Yes,it is possible to overload a method with the same return type,because during the runtime 
+
+     the compiler inspects the signature of the method or rather the different type of argument list 
+     
+     inorder to differentiate between the method with the same return type! 
+ 
+ For Example ,
+
+               
+               public class Main {
+
+	            public static void main(String[] args) {
+		            // TODO Auto-generated method stub
+		         System.out.println(sum(2,3));
+		         System.out.println(sum(20,30,40));}
+		     static int sum(int a,int b)
+		  {
+			 int z;
+		         z=a+b;
+			 return z;
+		}
+
+		
+		
+	            static int sum(int a,int b,int c)
+		{
+			
+			int z;
+			z=a+b+c;
+			return z;
+		}
+	   }
+  

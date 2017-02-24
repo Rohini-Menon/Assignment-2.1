@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Main {
+
+	private static Scanner sc;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		sc = new Scanner(System.in);
+		int x=sc.nextInt();
+		int y=sc.nextInt();
+		System.out.println("First number is:"+x); 
+
+                System.out.println("Second number is:"+y);
+		
+		System.out.println("Sum is:"+sum(x,y));
+
+	}
+
+	private static int sum(int a, int b) {
+		// TODO Auto-generated method stub
+
+		int z;
+		z=a+b;
+		return(z);
+		
+	}
+
+}
